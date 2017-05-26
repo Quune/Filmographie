@@ -1,29 +1,22 @@
 /**
  * Created by Quentinounet on 26/05/2017.
  */
-var filmographie = angular.module('filmographie ', ['ngRoute', 'ngResource']);
+angular.module('filmographie', ['ui.router'])
+    .config(function($stateProvider, $urlRouterProvider) {
 
-filmographie.config($routeProvider, $interpolateProvider, $httpProvider, $resourceProvider),
-    function () {
+    $urlRouterProvider.otherwise('/home');
 
-        $httpProvider.interceptors.push = 'httpInterceptor';
-        $httpProvider.defaults.headers.common['X-CSRFToken'] = $.cookie('csrftoken');
-        $httpProvider.defaults.xsrfCookieName = 'csrftoken';
-        $httpProvider.defaults.xsrfHeaderName = 'X-CSRFToken';
+    $stateProvider
 
-        $interpolateProvider.startSymbol =  '~{';
-        $interpolateProvider.endSymbol = '}~';
+        .state('home', {
+            url: '/home',
+            templateUrl: 'webapp/home.html'
+        }
 
-        $httpProvider.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
-
-        $resourceProvider.defaults.stripTrailingSlashes = false;
-
-        $routeProvider
-
-            .otherwise({redirectTo: '/home'});
+        );
 
 
-    };
+    });
 
 
 

@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="679ebf73-a20e-4141-b46d-740e11c01028" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/cd0dcf62-0679-42dd-b5d0-1480c2b07a89/_metadata_/metadata" afterPath="$PROJECT_DIR$/.idea/dataSources/cd0dcf62-0679-42dd-b5d0-1480c2b07a89/_metadata_/metadata" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/cd0dcf62-0679-42dd-b5d0-1480c2b07a89/_metadata_/metadata.keystream" afterPath="$PROJECT_DIR$/.idea/dataSources/cd0dcf62-0679-42dd-b5d0-1480c2b07a89/_metadata_/metadata.keystream" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/cd0dcf62-0679-42dd-b5d0-1480c2b07a89/_metadata_/metadata.keystream.len" afterPath="$PROJECT_DIR$/.idea/dataSources/cd0dcf62-0679-42dd-b5d0-1480c2b07a89/_metadata_/metadata.keystream.len" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/cd0dcf62-0679-42dd-b5d0-1480c2b07a89/_metadata_/metadata.len" afterPath="$PROJECT_DIR$/.idea/dataSources/cd0dcf62-0679-42dd-b5d0-1480c2b07a89/_metadata_/metadata.len" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/cd0dcf62-0679-42dd-b5d0-1480c2b07a89/_metadata_/metadata_i" afterPath="$PROJECT_DIR$/.idea/dataSources/cd0dcf62-0679-42dd-b5d0-1480c2b07a89/_metadata_/metadata_i" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/cd0dcf62-0679-42dd-b5d0-1480c2b07a89/_metadata_/metadata_i.len" afterPath="$PROJECT_DIR$/.idea/dataSources/cd0dcf62-0679-42dd-b5d0-1480c2b07a89/_metadata_/metadata_i.len" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Filmographie/urls.py" afterPath="$PROJECT_DIR$/Filmographie/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FrontEnd/.idea/workspace.xml" afterPath="$PROJECT_DIR$/FrontEnd/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FrontEnd/Gruntfile.js" afterPath="$PROJECT_DIR$/FrontEnd/Gruntfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FrontEnd/dist/filmographie.js" afterPath="$PROJECT_DIR$/FrontEnd/dist/filmographie.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FrontEnd/dist/filmographie.min.js" afterPath="$PROJECT_DIR$/FrontEnd/dist/filmographie.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FrontEnd/index.html" afterPath="$PROJECT_DIR$/FrontEnd/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FrontEnd/package.json" afterPath="$PROJECT_DIR$/FrontEnd/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FrontEnd/webapp/js/app.js" afterPath="$PROJECT_DIR$/FrontEnd/webapp/js/app.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -75,8 +73,8 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Filmographie/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="24" column="21" lean-forward="false" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+            <state relative-caret-position="345">
+              <caret line="23" column="15" lean-forward="true" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
               <folding>
                 <element signature="e#646#687#0" expanded="true" />
               </folding>
@@ -471,7 +469,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -695,8 +693,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Filmographie/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="24" column="21" lean-forward="false" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+        <state relative-caret-position="345">
+          <caret line="23" column="15" lean-forward="true" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
           <folding>
             <element signature="e#646#687#0" expanded="true" />
           </folding>

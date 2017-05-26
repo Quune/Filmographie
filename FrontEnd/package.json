@@ -2,13 +2,14 @@
   "name": "filmographie",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/filmographie.js",
   "dependencies": {
     "angular": "^1.6.4",
     "angular-route": "^1.6.4",
     "angular-resource": "^1.6.4",
     "angular-ui-router": "^1.0.3",
-    "angular-ui-bootstrap": "^2.5.0"
+    "angular-ui-bootstrap": "^2.5.0",
+    "bootstrap": "^3.3.7"
   },
   "devDependencies": {
     "grunt": "^1.0.1",
